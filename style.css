@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Karantina:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-family: "Karantina", cursive;
+  margin: 10px;
+  padding: 10px;
+  direction: rtl;
+  background: #fceabb;
+  background: linear-gradient(
+    to right,
+    #fceabb 0%,
+    #fccd4d 0%,
+    #f8b500 100%,
+    #fbdf93 100%
+  );
+}
+h1 {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.container {
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: -20px -20px 60px #bebebe, 20px 20px 60px #ffffff;
+  padding: 15px;
+}
+
+#inputContainer {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#itemInput {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset 5px 5px 13px #e0e0e0, inset -5px -5px 13px #ffffff;
+  border: none;
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-size: x-large;
+  font-family: "Dancing Script", cursive;
+  font-family: "Karantina", cursive;
+}
+
+button {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 21px #bdbdbd, -5px -5px 21px #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  font-family: "Karantina", cursive;
+  font-size: x-large;
+}
+button:hover {
+  background: #959595;
+  background: linear-gradient(
+    to right,
+    #959595 0%,
+    #0d0d0d 46%,
+    #010101 50%,
+    #0a0a0a 53%,
+    #1b1b1b 100%
+  );
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset 5px 5px 13px #e0e0e0, inset -5px -5px 13px #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: x-large;
+}
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+li label {
+  flex-grow: 1;
+}
+li button {
+  margin-right: 10px;
+  width: 95px;
+}
+#deleteButton {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: x-large;
+}
